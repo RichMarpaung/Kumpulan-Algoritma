@@ -73,5 +73,4 @@ print(classification_report(y_test, y_p))
 
 # print('confusion_matrix knn:')
 print(confusion_matrix(y_test, y_p))
-print(data.columns())
 print('Akurasi model KNN:', accuracy)
